@@ -1,0 +1,83 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 98%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.abobrinha{
+    width: 90%;
+}
+
+.bolinha1{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 45%;
+    margin-left: 100px;
+}
+
+#red{
+    width: 70%;
+    height: 50%;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#green{
+    width: 70%;
+    height: 50%;
+    background-color: greenyellow;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#blue{
+    width: 70%;
+    height: 50%;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.bolinha2{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    height: 10%;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+#reds{
+    width: 16%;
+    height: 140%;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#greens{
+    width: 16%;
+    height: 140%;
+    background-color: greenyellow;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#blues{
+    width: 16%;
+    height: 140%;
+    background-color: blue;
+    border-radius: 50%;
+}

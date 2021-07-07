@@ -1,0 +1,76 @@
+html, body{
+    margin: 0;
+    padding: 0;
+   width: 100%;
+   height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 20%;
+    background-color: cadetblue;
+}
+
+.one{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+}
+
+.two{
+    width: 100%;
+    height: 10%;
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 65%;
+    background-color: white;
+}
+
+#A{
+    width: 45%;
+    background-color: tomato;
+}
+
+#B{
+    width: 10%;
+}
+
+#C{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    width: 45%;
+}
+
+.four{
+    background-color: yellow;
+}
+
+.five{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    align-self: flex-end;
+    height: 60%;
+    background-color: turquoise;
+}
+
+#D{
+    background-color: white;
+}
+
+footer{
+    width: 100%;
+    height: 5%;
+}
+
+/*
+
+.Class -> Classe, pode ser usado várias vezes.
+#ID -> Identifica um elemento.
+vw -> Viewport Width (proporção da tela, não do objeto em que está dentro).
+vh -> Viewport Heigth (proporção da tela, não do objeto em que está dentro).
+
+*/

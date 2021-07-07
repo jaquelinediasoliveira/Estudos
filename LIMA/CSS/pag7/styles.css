@@ -1,0 +1,45 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 98%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.abobrinha{
+    width: 90%;
+}
+
+.ret1{
+    width: 100%;
+    height: 15%;
+    background-color: #CF4545;
+}
+
+.ret2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    background-color: #753535;
+}
+
+#ret3{
+    width: 25%;
+    height: 100%;
+    background-color: #CD9292;
+}
+
+footer{
+    width: 100%;
+    height: 15%;
+    background-color: #9F3D3D;
+}
